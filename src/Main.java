@@ -10,14 +10,14 @@ public class Main {
 
     }
 
-    public static void task1 () {
+    public static void task1() {
         System.out.println("Задача 1");
-        int [] first = new int [3];
+        int[] first = new int[3];
         first[0] = 1;
         first[1] = 2;
         first[2] = 3;
-        double [] second = {1.57, 7.654, 9.986};
-        double [] third = {1.1, 2.2, 3.4, 5.8000000001};
+        double[] second = {1.57, 7.654, 9.986};
+        double[] third = {1.1, 2.2, 3.4, 5.8000000001};
         System.out.println("Задача 2");
         for (int i = 0; i < first.length; i++) {
             if (i < first.length - 1) {
@@ -48,7 +48,7 @@ public class Main {
         System.out.println();
         System.out.println();
         System.out.println("Задача 3");
-        for (int i = first.length-1; i >= 0; i--) {
+        for (int i = first.length - 1; i >= 0; i--) {
             if (i > 0) {
                 System.out.print(first[i] + ", ");
             } else {
@@ -57,7 +57,7 @@ public class Main {
         }
         System.out.println();
 
-        for (int i = second.length-1; i >= 0; i--) {
+        for (int i = second.length - 1; i >= 0; i--) {
             if (i > 0) {
                 System.out.print(second[i] + ", ");
             } else {
@@ -66,7 +66,7 @@ public class Main {
         }
         System.out.println();
 
-        for (int i = third.length-1; i >= 0; i--) {
+        for (int i = third.length - 1; i >= 0; i--) {
             if (i > 0) {
                 System.out.print(third[i] + ", ");
             } else {
@@ -86,21 +86,22 @@ public class Main {
         System.out.println();
     }
 
-    public static void task5 () {
+    public static void task5() {
         System.out.println("Задача 5");
 
     }
 
-    public static void task6 () {
+    public static void task6() {
         System.out.println("Задача 6");
 
     }
 
-    public static void task7 () {
+    public static void task7() {
         System.out.println("Задача 7");
 
     }
-    public static void task8 () {
+
+    public static void task8() {
         System.out.println("Задача 8");
 
     }
