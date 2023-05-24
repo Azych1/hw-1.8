@@ -3,10 +3,6 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         task1();
-        task5();
-        task6();
-        task7();
-        task8();
 
     }
 
@@ -84,26 +80,6 @@ public class Main {
         System.out.println(Arrays.toString(first));
         System.out.println();
         System.out.println();
-    }
-
-    public static void task5() {
-        System.out.println("Задача 5");
-
-    }
-
-    public static void task6() {
-        System.out.println("Задача 6");
-
-    }
-
-    public static void task7() {
-        System.out.println("Задача 7");
-
-    }
-
-    public static void task8() {
-        System.out.println("Задача 8");
-
     }
 
 
