@@ -73,7 +73,7 @@ public class Main {
         System.out.println();
         System.out.println("Задача 4");
         for (int i = 0; i < first.length; i++) {
-            if (i % 2 != 1) {
+            if (first[i] % 2 != 0) {
                 first[i]++;
             }
         }
